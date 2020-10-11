@@ -39,7 +39,7 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className="sidebar__top">
-                <h3>Maddoxx</h3>
+                <h3>Discord</h3>
                 <ExpandMoreIcon />
             </div>
 
@@ -47,7 +47,7 @@ function Sidebar() {
                 <div className='sidebar__channelsHeader'>
                     <div className='sidebar__header'>
                         <ExpandMoreIcon />
-                        <h4>Text Channels</h4>
+                        <h4>Chat Channels</h4>
                     </div>
                     <AddIcon className='sidebar__addChannel'
                         onClick={handleAddChannel} />
